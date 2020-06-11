@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Landing Page Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LandingPageTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.LandingPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testLandingPage"/>
+        </methods>
+      </class> <!-- tests.LandingPageTest -->
+    </classes>
+  </test> <!-- LandingPageTest(failed) -->
+</suite> <!-- Failed suite [Landing Page Test Suite] -->

@@ -1,0 +1,6 @@
+#browser driver paths
+chrome=src/main/resources/chromedriver.exe
+msedge=src/main/resources/msedgedriver.exe
+firefox=src/main/resources/geckodriver.exe
+
+baseUrl=http://google.com
